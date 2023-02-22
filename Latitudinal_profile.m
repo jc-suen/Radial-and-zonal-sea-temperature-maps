@@ -8,8 +8,8 @@ temp = ncread(filename, 'water_temp');
 % Select zonal section to plot
 lon_range = [120, 135]; % index of latitude to plot
 lat_index = 26; % longitude range to plot
-depth_min = 0; % minimum longitude of ROI
-depth_max = 1000; % maximum longitude of ROI
+depth_min = 0; % minimum depth of ROI
+depth_max = 1000; % maximum depth of ROI
 
 % Find nearest latitude indices to lat_range
 [~,lon_min_index] = min(abs(lon-lon_range(1)));
